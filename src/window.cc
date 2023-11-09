@@ -34,6 +34,13 @@ void window::start_up() {
     glfwTerminate();
     exit(EXIT_FAILURE);
   }
+
+  // TODO: Add configuration for hardcoded width and height
+  glViewport(0, 0, 1024, 768);
+  // glEnable(GL_DEPTH_TEST);
+
+  glEnable(GL_DEBUG_OUTPUT);
+  glDebugMessageCallback((GLDEBUGPROC)debug_message_callback, nullptr);
 }
 
 void window::shut_down() {
@@ -46,4 +53,11 @@ void window::shut_down() {
 bool window::should_close() { return glfwWindowShouldClose(glfw_window_); }
 
 void window::swap_buffers() { glfwSwapBuffers(glfw_window_); }
+
+void window::debug_message_callback(int source, int type, unsigned int id,
+                                    int severity, unsigned int length,
+                                    const char* message,
+                                    const void* userParam) {
+  lazy_singleton<logger>::get().log(log_level::debug, std::string(message));
+}
 }  // namespace gls1

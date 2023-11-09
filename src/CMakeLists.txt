@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
 set(gls1_headers 
+    "cube1.h"
     "engine.h" 
     "file.h"
     "lazy_singleton.h"
@@ -14,7 +15,8 @@ set(gls1_headers
     "triangle1.h"
     "window.h")
 
-set(gls1_sources 
+set(gls1_sources
+    "cube1.cc" 
     "engine.cc"
     "file.cc" 
     "logger.cc"

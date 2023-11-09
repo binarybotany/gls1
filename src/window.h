@@ -15,7 +15,12 @@ class window final {
   void swap_buffers();
 
  private:
-  GLFWwindow *glfw_window_ = nullptr;
+  GLFWwindow* glfw_window_ = nullptr;
+
+  static void debug_message_callback(int source, int type, unsigned int id,
+                                     int severity, unsigned int length,
+                                     const char* message,
+                                     const void* userParam);
 };
 }  // namespace gls1
 
