@@ -3,6 +3,8 @@
 #include <glad/glad.h>
 
 #include "file.h"
+#include "lazy_singleton.h"
+#include "logger.h"
 
 namespace gls1 {
 rendering_program::rendering_program() { program_ = glCreateProgram(); }
@@ -22,10 +24,9 @@ void rendering_program::add_shader(int type, std::string filepath) {
   int compiled = GL_FALSE;
   glGetShaderiv(shader, GL_COMPILE_STATUS, &compiled);
   if (!compiled) {
-    // TODO: log
     char infolog[1024];
     glGetShaderInfoLog(shader, 1024, nullptr, infolog);
-    std::cerr << infolog << std::endl;
+    lazy_singleton<logger>::get().log(log_level::warning, std::string(infolog));
     glDeleteShader(shader);
     return;
   }
@@ -45,10 +46,9 @@ void rendering_program::link() {
   int linked = GL_FALSE;
   glGetProgramiv(program_, GL_LINK_STATUS, &linked);
   if (!linked) {
-    // TODO: log
     char infolog[1024];
     glGetProgramInfoLog(program_, 1024, nullptr, infolog);
-    std::cerr << infolog << std::endl;
+    lazy_singleton<logger>::get().log(log_level::warning, std::string(infolog));
     return;
   }
 

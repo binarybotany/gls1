@@ -1,0 +1,8 @@
+[2023-11-09 15:28:06] INFO: Starting up engine
+[2023-11-09 15:28:09] INFO: Shutting down engine
+[2023-11-09 15:28:25] INFO: Starting up engine
+[2023-11-09 15:28:25] WARNING: 0(6) : error C1503: undefined variable "dfdfdfdfvec4"
+
+[2023-11-09 15:28:27] INFO: Shutting down engine
+[2023-11-09 15:28:40] INFO: Starting up engine
+[2023-11-09 15:28:42] INFO: Shutting down engine

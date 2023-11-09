@@ -4,12 +4,18 @@
 
 namespace gls1 {
 void logger::log(log_level level, const std::string &message) {
-  if (log_file_.is_open()) {
-    log_file_ << "[" << current_date_time() << "] " << level_to_string(level)
-              << ": " << message << std::endl;
+  std::ofstream log_file(filepath_, std::ios::out | std::ios::app);
+
+  if (log_file.is_open()) {
+    log_file << "[" << current_date_time() << "] " << level_to_string(level)
+             << ": " << message << std::endl;
   }
-  std::cout << "[" << current_date_time() << "] " << level_to_string(level)
-            << ": " << message << std::endl;
+
+  log_file.close();
+}
+
+void logger::set_file(const std::string &filepath) {
+  filepath_ = std::string(filepath.begin(), filepath.end());
 }
 
 std::string logger::current_date_time() {

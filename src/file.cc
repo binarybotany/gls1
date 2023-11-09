@@ -1,5 +1,8 @@
 #include "file.h"
 
+#include "lazy_singleton.h"
+#include "logger.h"
+
 namespace gls1 {
 file::file(const std::string &filepath) { load(filepath); }
 
@@ -9,8 +12,8 @@ void file::load(const std::string &filepath) {
   std::ifstream stream(filepath);
 
   if (!stream.is_open()) {
-    // TODO: log
-    std::cerr << "Unable to open file: " << filepath << std::endl;
+    std::string message = "Unable to open file: " + filepath;
+    lazy_singleton<logger>::get().log(log_level::error, message);
   }
 
   std::stringstream buffer;

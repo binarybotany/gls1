@@ -1,5 +1,5 @@
-#ifndef GLS1_RECTANGLE1_H_
-#define GLS1_RECTANGLE1_H_
+#ifndef GLS1_RECTANGLE2_H_
+#define GLS1_RECTANGLE2_H_
 
 #include <memory>
 
@@ -7,10 +7,9 @@
 #include "rendering_program.h"
 
 namespace gls1 {
-class rectangle1 final : public render_object {
- public:
-  rectangle1();
-  virtual ~rectangle1();
+class rectangle2 final : public render_object {
+  rectangle2();
+  virtual ~rectangle2();
 
   void render() const override;
   void update() override;
@@ -19,7 +18,7 @@ class rectangle1 final : public render_object {
   void unbind() const;
 
  private:
-  unsigned int ebo_, vao_, vbo_;
+  unsigned int vao_, vbo_;
   std::unique_ptr<rendering_program> program_ = nullptr;
 };
 }  // namespace gls1

@@ -13,5 +13,6 @@ set(GLFW_INSTALL OFF)
 
 add_subdirectory(extern/glfw)
 add_subdirectory(extern/glad)
+add_subdirectory(extern/stb_image)
 
 add_subdirectory(src bin)

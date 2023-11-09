@@ -10,13 +10,12 @@ enum class log_level { debug, info, warning, error, fatal };
 
 class logger final {
  public:
-  logger(const std::string &filepath)
-      : log_file_(filepath, std::ios::out | std::ios::app) {}
+  void set_file(const std::string &filepath);
 
   void log(log_level level, const std::string &message);
 
  private:
-  std::ofstream log_file_;
+  std::string filepath_;
 
   std::string current_date_time();
 

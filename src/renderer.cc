@@ -2,13 +2,16 @@
 
 #include <glad/glad.h>
 
+#include "rectangle1.h"
 #include "triangle1.h"
 
 namespace gls1 {
 void renderer::start_up() {
   glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+  render_object *r1 = new rectangle1();
   render_object *t1 = new triangle1();
 
+  objects_.push_back(r1);
   objects_.push_back(t1);
 }
 

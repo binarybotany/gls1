@@ -15,7 +15,6 @@ class engine final {
   void run();
 
  private:
-  std::unique_ptr<logger> logger_ = nullptr;
   std::unique_ptr<window> window_ = nullptr;
   std::unique_ptr<renderer> renderer_ = nullptr;
 };

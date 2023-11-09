@@ -2,10 +2,14 @@
 
 #include <cstdlib>
 
+#include "lazy_singleton.h"
+#include "logger.h"
+
 namespace gls1 {
 void window::start_up() {
   if (!glfwInit()) {
-    logger_->log(log_level::error, "Unable to initialize GLFW");
+    lazy_singleton<logger>::get().log(log_level::error,
+                                      "Unable to initialize GLFW");
     exit(EXIT_FAILURE);
   }
 
@@ -15,7 +19,8 @@ void window::start_up() {
   glfw_window_ = glfwCreateWindow(1024, 768, "GLS1", nullptr, nullptr);
 
   if (glfw_window_ == nullptr) {
-    logger_->log(log_level::error, "Unable to create window");
+    lazy_singleton<logger>::get().log(log_level::error,
+                                      "Unable to create window");
     glfwTerminate();
     exit(EXIT_FAILURE);
   }
@@ -23,7 +28,8 @@ void window::start_up() {
   glfwMakeContextCurrent(glfw_window_);
 
   if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
-    logger_->log(log_level::error, "Unable to initialize OpenGL 4.6 context");
+    lazy_singleton<logger>::get().log(
+        log_level::error, "Unable to initialize OpenGL 4.6 context");
     glfwDestroyWindow(glfw_window_);
     glfwTerminate();
     exit(EXIT_FAILURE);

@@ -3,10 +3,14 @@
 #define GLFW_INCLUDE_NONE
 #include <glfw/glfw3.h>
 
+#include "lazy_singleton.h"
+
 namespace gls1 {
 void engine::start_up() {
-  logger_ = std::make_unique<logger>("gls1.log");
-  window_ = std::make_unique<window>(logger_.get());
+  lazy_singleton<logger>::get().set_file("gls1.log");
+  lazy_singleton<logger>::get().log(log_level::info, "Starting up engine");
+
+  window_ = std::make_unique<window>();
   renderer_ = std::make_unique<renderer>();
 
   window_->start_up();
@@ -14,6 +18,8 @@ void engine::start_up() {
 }
 
 void engine::shut_down() {
+  lazy_singleton<logger>::get().log(log_level::info, "Shutting down engine");
+
   renderer_->shut_down();
   window_->shut_down();
 }

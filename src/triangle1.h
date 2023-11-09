@@ -10,10 +10,13 @@ namespace gls1 {
 class triangle1 final : public render_object {
  public:
   triangle1();
-  ~triangle1();
+  virtual ~triangle1();
 
   void render() const override;
   void update() override;
+
+  void bind() const;
+  void unbind() const;
 
  private:
   unsigned int vbo_, vao_;
