@@ -56,3 +56,11 @@
 [2023-11-09 20:24:09] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
 [2023-11-09 20:24:09] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
 [2023-11-09 20:24:27] INFO: Shutting down engine
+[2023-11-09 20:26:07] INFO: Starting up engine
+[2023-11-09 20:26:07] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:26:07] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:26:57] INFO: Shutting down engine
+[2023-11-09 20:47:30] INFO: Starting up engine
+[2023-11-09 20:47:30] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:47:30] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:47:51] INFO: Shutting down engine

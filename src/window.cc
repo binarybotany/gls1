@@ -17,6 +17,7 @@ void window::start_up(input_controller* input_controller) {
 
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
   glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 6);
+  glfwWindowHint(GLFW_SAMPLES, 4);
 
   glfw_window_ = glfwCreateWindow(1024, 768, "GLS1", nullptr, nullptr);
 
@@ -42,6 +43,7 @@ void window::start_up(input_controller* input_controller) {
   glViewport(0, 0, 1024, 768);
 
   glEnable(GL_DEPTH_TEST);
+  glEnable(GL_MULTISAMPLE);
   glEnable(GL_DEBUG_OUTPUT);
   glDebugMessageCallback((GLDEBUGPROC)debug_message_callback, nullptr);
 
