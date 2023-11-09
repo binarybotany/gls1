@@ -10,6 +10,7 @@ set(gls1_headers
     "render_object.h" 
     "renderer.h"
     "rendering_program.h"
+    "texture.h"
     "triangle1.h"
     "window.h")
 
@@ -21,6 +22,7 @@ set(gls1_sources
     "rectangle2.cc"
     "renderer.cc"
     "rendering_program.cc"
+    "texture.cc"
     "triangle1.cc" 
     "window.cc")
 

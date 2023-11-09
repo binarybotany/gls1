@@ -5,32 +5,71 @@
 
 namespace gls1 {
 rectangle2::rectangle2() {
+  const float vertices[] = {0.5f,  0.5f,  0.0f, 1.0f, 0.0f, 0.0f, 1.0f, 1.0f,
+                            0.5f,  -0.5f, 0.0f, 0.0f, 1.0f, 0.0f, 1.0f, 0.0f,
+                            -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, 1.0f, 0.0f, 0.0f,
+                            -0.5f, 0.5f,  0.0f, 1.0f, 1.0f, 0.0f, 0.0f, 1.0f};
+
+  const unsigned int indices[] = {0, 1, 3, 1, 2, 3};
+
   program_ = std::make_unique<rendering_program>();
-  program_->add_shader(GL_VERTEX_SHADER, "position.vert.glsl");
-  program_->add_shader(GL_FRAGMENT_SHADER, "");
+  program_->add_shader(GL_VERTEX_SHADER, "shaders/rectangle2.vert.glsl");
+  program_->add_shader(GL_FRAGMENT_SHADER, "shaders/rectangle2.frag.glsl");
+  program_->link();
 
-  /* Texturing */
-  int width, height, channels;
-  unsigned char *data =
-      stbi_load("images/checkers-16-16.png", &width, &height, &channels, 0);
+  texture_ = std::make_unique<texture>("images/checkers-16-16.png");
 
-  unsigned int texture;
-  glGenTextures(1, &texture);
-  glBindTexture(GL_TEXTURE_2D, texture);
-  glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB,
-               GL_UNSIGNED_BYTE, data);
-  glGenerateMipmap(GL_TEXTURE_2D);
+  glGenVertexArrays(1, &vao_);
+  glGenBuffers(1, &vbo_);
+  glGenBuffers(1, &ebo_);
 
-  stbi_image_free(data);
+  bind();
+
+  glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices,
+               GL_STATIC_DRAW);
+
+  glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float), (void *)0);
+  glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 8 * sizeof(float),
+                        (void *)(3 * sizeof(float)));
+  glVertexAttribPointer(2, 2, GL_FLOAT, GL_FALSE, 8 * sizeof(float),
+                        (void *)(6 * sizeof(float)));
+
+  glEnableVertexAttribArray(0);
+  glEnableVertexAttribArray(1);
+  glEnableVertexAttribArray(2);
+
+  unbind();
 }
 
-rectangle2::~rectangle2() {}
+rectangle2::~rectangle2() {
+  glDeleteVertexArrays(1, &vao_);
+  glDeleteBuffers(1, &vbo_);
+  glDeleteBuffers(1, &ebo_);
+}
 
-void rectangle2::render() const {}
+void rectangle2::render() const {
+  bind();
+  glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+  unbind();
+}
 
 void rectangle2::update() {}
 
-void rectangle2::bind() const { program_->use(); }
+void rectangle2::bind() const {
+  program_->use();
+  texture_->bind();
 
-void rectangle2::unbind() const {}
+  glBindVertexArray(vao_);
+  glBindBuffer(GL_ARRAY_BUFFER, vbo_);
+  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo_);
+}
+
+void rectangle2::unbind() const {
+  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+  glBindVertexArray(0);
+
+  texture_->unbind();
+}
 }  // namespace gls1

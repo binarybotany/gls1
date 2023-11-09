@@ -6,3 +6,15 @@
 [2023-11-09 15:28:27] INFO: Shutting down engine
 [2023-11-09 15:28:40] INFO: Starting up engine
 [2023-11-09 15:28:42] INFO: Shutting down engine
+[2023-11-09 15:58:55] INFO: Starting up engine
+[2023-11-09 15:58:56] WARNING: 0(11) : error C7011: implicit cast from "vec3" to "vec2"
+
+[2023-11-09 15:58:58] INFO: Shutting down engine
+[2023-11-09 15:59:29] INFO: Starting up engine
+[2023-11-09 15:59:29] WARNING: 0(11) : error C7011: implicit cast from "vec3" to "vec2"
+
+[2023-11-09 15:59:31] INFO: Shutting down engine
+[2023-11-09 15:59:42] INFO: Starting up engine
+[2023-11-09 15:59:57] INFO: Shutting down engine
+[2023-11-09 16:00:09] INFO: Starting up engine
+[2023-11-09 16:00:13] INFO: Shutting down engine
