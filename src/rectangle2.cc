@@ -1,7 +1,13 @@
 #include "rectangle2.h"
 
+#define GLFW_INCLUDE_NONE
 #include <glad/glad.h>
+#include <glfw/glfw3.h>
 #include <stb_image.h>
+
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/mat4x4.hpp>
+#include <glm/vec3.hpp>
 
 namespace gls1 {
 rectangle2::rectangle2() {
@@ -54,7 +60,14 @@ void rectangle2::render() const {
   unbind();
 }
 
-void rectangle2::update() {}
+void rectangle2::update() {
+  glm::mat4 transform = glm::mat4(1.0f);
+  transform = glm::translate(transform, glm::vec3(0.5f, -0.5f, 0.0f));
+  transform =
+      glm::rotate(transform, (float)glfwGetTime(), glm::vec3(0.0f, 0.0f, 1.0f));
+
+  program_->set_mat4fv("transform", transform);
+}
 
 void rectangle2::bind() const {
   program_->use();

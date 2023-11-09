@@ -27,4 +27,4 @@ set(gls1_sources
     "window.cc")
 
 add_executable(gls1 main.cc ${gls1_headers} ${gls1_sources})
-target_link_libraries(gls1 PRIVATE glfw glad stb_image)
+target_link_libraries(gls1 PRIVATE glad glfw glm stb_image)

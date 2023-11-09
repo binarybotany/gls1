@@ -20,3 +20,16 @@
 [2023-11-09 16:00:13] INFO: Shutting down engine
 [2023-11-09 16:01:47] INFO: Starting up engine
 [2023-11-09 16:01:50] INFO: Shutting down engine
+[2023-11-09 16:02:42] INFO: Starting up engine
+[2023-11-09 16:21:35] INFO: Shutting down engine
+[2023-11-09 16:24:53] INFO: Starting up engine
+[2023-11-09 16:24:53] WARNING: 0(11) : error C7011: implicit cast from "vec4" to "vec3"
+0(11) : error C1035: assignment of incompatible types
+
+[2023-11-09 16:24:54] INFO: Shutting down engine
+[2023-11-09 16:25:53] INFO: Starting up engine
+[2023-11-09 16:26:01] INFO: Shutting down engine
+[2023-11-09 16:37:36] INFO: Starting up engine
+[2023-11-09 16:37:40] INFO: Shutting down engine
+[2023-11-09 16:39:16] INFO: Starting up engine
+[2023-11-09 16:41:19] INFO: Shutting down engine

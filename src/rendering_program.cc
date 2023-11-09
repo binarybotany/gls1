@@ -34,7 +34,7 @@ void rendering_program::add_shader(int type, std::string filepath) {
   shaders_.push_back(shader);
 }
 
-void rendering_program::link() {
+void rendering_program::link() const {
   for (const unsigned int shader : shaders_) {
     glAttachShader(program_, shader);
   }
@@ -57,5 +57,15 @@ void rendering_program::link() {
   }
 }
 
-void rendering_program::use() { glUseProgram(program_); }
+void rendering_program::use() const { glUseProgram(program_); }
+
+void rendering_program::set_mat4fv(const std::string &location,
+                                   glm::mat4 matrix) const {
+  use();
+
+  unsigned int uniform_location =
+      glGetUniformLocation(program_, location.c_str());
+
+  glUniformMatrix4fv(uniform_location, 1, GL_FALSE, glm::value_ptr(matrix));
+}
 }  // namespace gls1
