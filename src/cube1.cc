@@ -1,6 +1,11 @@
 #include "cube1.h"
 
+#define GLFW_INCLUDE_NONE
 #include <glad/glad.h>
+#include <glfw/glfw3.h>
+
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/vec3.hpp>
 
 namespace gls1 {
 cube1::cube1() {
@@ -58,8 +63,18 @@ void cube1::render() const {
   unbind();
 }
 
-void cube1::update() {
-  // Let's MVP!
+void cube1::update(glm::mat4 view) {
+  glm::mat4 model = glm::mat4(1.0f);
+  model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f),
+                      glm::vec3(0.5f, 1.0f, 0.0f));
+
+  glm::mat4 projection;
+  projection =
+      glm::perspective(glm::radians(45.0f), (float)(1024 / 768), 0.1f, 100.0f);
+
+  program_->set_mat4fv("model", model);
+  program_->set_mat4fv("view", view);
+  program_->set_mat4fv("projection", projection);
 }
 
 void cube1::bind() const {

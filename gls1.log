@@ -1,291 +1,58 @@
-[2023-11-09 15:28:06] INFO: Starting up engine
-[2023-11-09 15:28:09] INFO: Shutting down engine
-[2023-11-09 15:28:25] INFO: Starting up engine
-[2023-11-09 15:28:25] WARNING: 0(6) : error C1503: undefined variable "dfdfdfdfvec4"
-
-[2023-11-09 15:28:27] INFO: Shutting down engine
-[2023-11-09 15:28:40] INFO: Starting up engine
-[2023-11-09 15:28:42] INFO: Shutting down engine
-[2023-11-09 15:58:55] INFO: Starting up engine
-[2023-11-09 15:58:56] WARNING: 0(11) : error C7011: implicit cast from "vec3" to "vec2"
-
-[2023-11-09 15:58:58] INFO: Shutting down engine
-[2023-11-09 15:59:29] INFO: Starting up engine
-[2023-11-09 15:59:29] WARNING: 0(11) : error C7011: implicit cast from "vec3" to "vec2"
-
-[2023-11-09 15:59:31] INFO: Shutting down engine
-[2023-11-09 15:59:42] INFO: Starting up engine
-[2023-11-09 15:59:57] INFO: Shutting down engine
-[2023-11-09 16:00:09] INFO: Starting up engine
-[2023-11-09 16:00:13] INFO: Shutting down engine
-[2023-11-09 16:01:47] INFO: Starting up engine
-[2023-11-09 16:01:50] INFO: Shutting down engine
-[2023-11-09 16:02:42] INFO: Starting up engine
-[2023-11-09 16:21:35] INFO: Shutting down engine
-[2023-11-09 16:24:53] INFO: Starting up engine
-[2023-11-09 16:24:53] WARNING: 0(11) : error C7011: implicit cast from "vec4" to "vec3"
-0(11) : error C1035: assignment of incompatible types
-
-[2023-11-09 16:24:54] INFO: Shutting down engine
-[2023-11-09 16:25:53] INFO: Starting up engine
-[2023-11-09 16:26:01] INFO: Shutting down engine
-[2023-11-09 16:37:36] INFO: Starting up engine
-[2023-11-09 16:37:40] INFO: Shutting down engine
-[2023-11-09 16:39:16] INFO: Starting up engine
-[2023-11-09 16:41:19] INFO: Shutting down engine
-[2023-11-09 16:53:45] INFO: Starting up engine
-[2023-11-09 16:53:49] INFO: Shutting down engine
-[2023-11-09 16:54:10] INFO: Starting up engine
-[2023-11-09 17:08:18] INFO: Shutting down engine
-[2023-11-09 17:37:32] INFO: Starting up engine
-[2023-11-09 17:37:32] ERROR: Unable to open file: cube1.vert.glsl
-[2023-11-09 17:37:32] ERROR: Unable to open file: cube1.frag.glsl
-[2023-11-09 17:37:35] INFO: Shutting down engine
-[2023-11-09 17:38:18] INFO: Starting up engine
-[2023-11-09 17:38:21] INFO: Shutting down engine
-[2023-11-09 17:39:10] INFO: Starting up engine
-[2023-11-09 17:39:11] INFO: Shutting down engine
-[2023-11-09 17:41:15] INFO: Starting up engine
-[2023-11-09 17:41:17] INFO: Shutting down engine
-[2023-11-09 17:46:07] INFO: Starting up engine
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:07] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:08] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:09] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:09] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:46:09] DEBUG: GL_INVALID_OPERATION error generated. <program> has not been linked, or is not a program object.
-[2023-11-09 17:46:09] DEBUG: GL_INVALID_OPERATION error generated. <program> object is not successfully linked, or is not a program object.
-[2023-11-09 17:47:10] INFO: Starting up engine
-[2023-11-09 17:47:10] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
-[2023-11-09 17:47:10] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
-[2023-11-09 17:47:12] INFO: Shutting down engine
-[2023-11-09 17:48:06] INFO: Starting up engine
-[2023-11-09 17:48:07] WARNING: 0(8) : error C1503: undefined variable "texture_coordinates"
-
-[2023-11-09 17:48:07] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
-[2023-11-09 17:48:07] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
-[2023-11-09 17:48:08] INFO: Shutting down engine
-[2023-11-09 17:48:41] INFO: Starting up engine
-[2023-11-09 17:48:41] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
-[2023-11-09 17:48:41] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
-[2023-11-09 17:48:44] INFO: Shutting down engine
+[2023-11-09 19:27:36] INFO: Starting up engine
+[2023-11-09 19:28:26] INFO: Starting up engine
+[2023-11-09 19:28:26] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 19:28:26] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 19:28:36] INFO: Shutting down engine
+[2023-11-09 19:29:42] INFO: Starting up engine
+[2023-11-09 19:29:42] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 19:29:42] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 19:30:03] INFO: Shutting down engine
+[2023-11-09 19:30:17] INFO: Starting up engine
+[2023-11-09 19:30:17] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 19:30:17] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 19:30:31] INFO: Shutting down engine
+[2023-11-09 19:49:46] INFO: Starting up engine
+[2023-11-09 19:49:46] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 19:49:46] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 19:50:06] INFO: Shutting down engine
+[2023-11-09 20:01:34] INFO: Starting up engine
+[2023-11-09 20:03:07] INFO: Starting up engine
+[2023-11-09 20:03:08] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:03:08] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:03:41] INFO: Shutting down engine
+[2023-11-09 20:04:30] INFO: Starting up engine
+[2023-11-09 20:04:30] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:04:30] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:04:31] INFO: Shutting down engine
+[2023-11-09 20:04:59] INFO: Starting up engine
+[2023-11-09 20:05:00] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:05:00] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:05:03] INFO: Shutting down engine
+[2023-11-09 20:05:11] INFO: Starting up engine
+[2023-11-09 20:05:11] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:05:11] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:05:27] INFO: Shutting down engine
+[2023-11-09 20:07:21] INFO: Starting up engine
+[2023-11-09 20:07:21] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:07:21] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:07:27] INFO: Shutting down engine
+[2023-11-09 20:07:41] INFO: Starting up engine
+[2023-11-09 20:07:41] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:07:41] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:08:08] INFO: Shutting down engine
+[2023-11-09 20:08:22] INFO: Starting up engine
+[2023-11-09 20:08:23] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:08:23] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:08:46] INFO: Shutting down engine
+[2023-11-09 20:11:50] INFO: Starting up engine
+[2023-11-09 20:11:50] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:11:50] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:12:12] INFO: Shutting down engine
+[2023-11-09 20:23:15] INFO: Starting up engine
+[2023-11-09 20:23:15] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:23:15] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:23:52] INFO: Shutting down engine
+[2023-11-09 20:24:09] INFO: Starting up engine
+[2023-11-09 20:24:09] DEBUG: Buffer detailed info: Buffer object 1 (bound to GL_ARRAY_BUFFER_ARB, usage hint is GL_STATIC_DRAW) will use VIDEO memory as the source for buffer object operations.
+[2023-11-09 20:24:09] DEBUG: Program/shader state performance warning: Vertex shader in program 1 is being recompiled based on GL state.
+[2023-11-09 20:24:27] INFO: Shutting down engine

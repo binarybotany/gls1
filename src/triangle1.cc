@@ -36,8 +36,6 @@ void triangle1::render() const {
   unbind();
 }
 
-void triangle1::update() {}
-
 void triangle1::bind() const {
   program_->use();
 

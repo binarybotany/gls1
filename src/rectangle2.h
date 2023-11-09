@@ -1,6 +1,7 @@
 #ifndef GLS1_RECTANGLE2_H_
 #define GLS1_RECTANGLE2_H_
 
+#include <glm/mat4x4.hpp>
 #include <memory>
 
 #include "render_object.h"
@@ -14,7 +15,7 @@ class rectangle2 final : public render_object {
   virtual ~rectangle2();
 
   void render() const override;
-  void update() override;
+  void update(glm::mat4 _) override;
 
   void bind() const;
   void unbind() const;

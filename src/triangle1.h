@@ -13,7 +13,6 @@ class triangle1 final : public render_object {
   virtual ~triangle1();
 
   void render() const override;
-  void update() override;
 
   void bind() const;
   void unbind() const;

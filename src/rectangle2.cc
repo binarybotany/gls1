@@ -60,7 +60,7 @@ void rectangle2::render() const {
   unbind();
 }
 
-void rectangle2::update() {
+void rectangle2::update(glm::mat4 _) {
   glm::mat4 transform = glm::mat4(1.0f);
   transform = glm::translate(transform, glm::vec3(0.5f, -0.5f, 0.0f));
   transform =

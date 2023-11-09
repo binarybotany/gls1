@@ -1,6 +1,7 @@
 #ifndef GLS1_CUBE1_H_
 #define GLS1_CUBE1_H_
 
+#include <glm/mat4x4.hpp>
 #include <memory>
 
 #include "render_object.h"
@@ -14,7 +15,7 @@ class cube1 final : public render_object {
   ~cube1();
 
   void render() const override;
-  void update() override;
+  void update(glm::mat4 view) override;
 
   void bind() const;
   void unbind() const;

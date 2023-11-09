@@ -13,7 +13,6 @@ class rectangle1 final : public render_object {
   virtual ~rectangle1();
 
   void render() const override;
-  void update() override;
 
   void bind() const;
   void unbind() const;

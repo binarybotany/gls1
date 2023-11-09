@@ -3,7 +3,9 @@
 
 #include <memory>
 
+#include "input_controller.h"
 #include "logger.h"
+#include "perspective_camera.h"
 #include "renderer.h"
 #include "window.h"
 
@@ -15,8 +17,15 @@ class engine final {
   void run();
 
  private:
+  void delta_time();
+
+  float delta_time_ = 0.0f;
+  float last_frame_ = 0.0f;
+
   std::unique_ptr<window> window_ = nullptr;
   std::unique_ptr<renderer> renderer_ = nullptr;
+  std::unique_ptr<perspective_camera> camera_ = nullptr;
+  std::unique_ptr<input_controller> input_controller_ = nullptr;
 };
 }  // namespace gls1
 

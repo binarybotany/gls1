@@ -43,8 +43,6 @@ void rectangle1::render() const {
   unbind();
 }
 
-void rectangle1::update() {}
-
 void rectangle1::bind() const {
   program_->use();
 
