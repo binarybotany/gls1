@@ -24,7 +24,7 @@ triangle1::triangle1() {
 
   program_->use();
 
-  glBindVertexArray(NULL);
+  glBindVertexArray(0);
 }
 
 triangle1::~triangle1() {}
@@ -33,7 +33,7 @@ void triangle1::render() const {
   program_->use();
   glBindVertexArray(vao_);
   glDrawArrays(GL_TRIANGLES, 0, 3);
-  glBindVertexArray(NULL);
+  glBindVertexArray(0);
 }
 
 void triangle1::update() {}
