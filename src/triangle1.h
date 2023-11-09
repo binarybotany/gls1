@@ -12,7 +12,7 @@ class triangle1 final : public render_object {
   triangle1();
   ~triangle1();
 
-  void render() override;
+  void render() const override;
   void update() override;
 
  private:

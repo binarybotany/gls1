@@ -29,7 +29,7 @@ triangle1::triangle1() {
 
 triangle1::~triangle1() {}
 
-void triangle1::render() {
+void triangle1::render() const {
   program_->use();
   glBindVertexArray(vao_);
   glDrawArrays(GL_TRIANGLES, 0, 3);
