@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.20)
 
 set(gls1_headers 
     "cube1.h"
+    "cube2.h"
     "engine.h" 
     "file.h"
     "input_controller.h"
@@ -19,6 +20,7 @@ set(gls1_headers
 
 set(gls1_sources
     "cube1.cc" 
+    "cube2.cc"
     "engine.cc"
     "file.cc" 
     "input_controller.cc"
